@@ -1,0 +1,25 @@
+/********** GLOBAL STYLE *************/
+.sampleProject{
+    margin-top: 5%;
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+}
+/************ PIE CHART STYLE *********/
+.selected{
+    //background-color: orange;
+    font-style: oblique;
+    opacity: 0.5;
+}
+.chartLists{
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+#chartList img{
+    cursor: pointer;
+    float: left;
+}
