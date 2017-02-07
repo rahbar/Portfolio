@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "description": "portfolio",
+  "main": "gulpfile.js",
+  "authors": [
+    "Mohammad Rahbar"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.6.0",
+    "angular-route": "1.5.x",
+    "bootstrap": "~3.3.7",
+    "jquery": "~2.2.0"
+  }
+}

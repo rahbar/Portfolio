@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" ng-app="portfolioApp">
+  <head>
+    <meta charset="utf-8">
+    <title>My HTML File</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="src/module/app.js"></script>
+    <script src="src/config.js"></script>
+    <script src="src/component/app.js"></script>
+    <script src="src/module/fileUploader.js"></script>
+    <script src="src/component/fileUploader.js"></script>
+    <script src="src/module/smartGrid.js"></script>
+    <script src="src/component/smartGrid.js"></script>
+    <script src="src/module/smartChart.js"></script>
+    <script src="src/component/smartChart.js"></script>
+  </head>
+  <body  class="container">
+        
+        <header class="page-header text-center">
+            <h1>Mo Rahbar Portfolio</h1>
+        </header>
+        <section ng-view class="col-lg-12">
+                <portfolio-app></portfolio-app>
+            <!-- <div class="row">
+                <file-uploader class=" col-lg-offset-2 col-lg-4"></file-uploader>
+                <smart-grid class=" col-lg-offset-2 col-lg-4"></smart-grid>
+            </div>
+            <div class="row">
+                <smart-chart class=" col-lg-offset-2 col-lg-4"></smart-chart>
+            </div> -->
+        </section>
+        <footer>
+        </footer>
+
+        
+    </body>
+</html>
